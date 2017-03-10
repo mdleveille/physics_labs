@@ -14,3 +14,5 @@ def theta(d,y0,mb,mp,l):
 	"""computes the angle given d,y0,mb,mp, and l"""
 	th = (180/np.pi)*np.arccos(1-vbp(d,y0,mb,mp)**2/(2*l*g))
 	return th
+
+#test line for git
